@@ -73,6 +73,11 @@ cd /back-end
 update-database
 ```
 
+6. No mesmo diretório use o comando para restauras as dependências
+```bash
+dotnet restore
+```
+
 ____________
 
 ### 3. Front-end
