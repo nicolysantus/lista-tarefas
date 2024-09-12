@@ -36,7 +36,7 @@ Antes de iniciar o projeto, certifique-se de ter os seguintes softwares instalad
 ## Inicializando o Projeto
 ### 1. Clone o repositório 
 ```bash
-  [https://github.com/nicolysantus/lista-de-tarefas.git]
+  [https://github.com/nicolysantus/lista-tarefas.git]
 ```
 ____________
 
