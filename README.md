@@ -44,7 +44,9 @@ ____________
 1. Certifique-se de que o SQL Server (SSMS) esteja instalado e configurado corretamente em sua máquina. 
 
 2. Navegue até o diretório (**back-end/appsettings.json**) e utilize a string de conexão abaixo no arquivo de configuração da API
-**Observação:** Observação: Mantenha o nome do banco de dados como TesteTecnico para evitar erros.
+
+
+**Observação:** Mantenha o nome do banco de dados como TesteTecnico para evitar erros.
 
 para conectar ao banco de dados:
 ```bash
