@@ -45,7 +45,7 @@ ____________
 
 2. Navegue até o diretório (**back-end/appsettings.json**) e utilize a string de conexão abaixo no arquivo de configuração da API para adicionar o seu servidor SQL:
 
-<img src="https://i.pinimg.com/736x/18/8c/24/188c245b70b06b4c26ec3801d9c3a725.jpg" alt="sqlserver" width="200"/>
+<img src="https://i.pinimg.com/736x/18/8c/24/188c245b70b06b4c26ec3801d9c3a725.jpg" alt="sqlserver" width="300"/>
 
 **Observação:** Mantenha o nome do banco de dados como TesteTecnico para evitar erros.
 
