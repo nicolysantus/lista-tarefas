@@ -111,7 +111,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Lista de Tarefas</h1>
+      <h1>☑️ Lista de Tarefas ☑️</h1>
       <Search search={search} setSearch={setSearch} />
       <Filter filter={filter} setFilter={setFilter} addTodo={addTodo} />
       <div className="todo-list">

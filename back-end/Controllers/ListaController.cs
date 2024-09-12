@@ -17,7 +17,6 @@ namespace to_do_list.Controllers
         }
 
         // GET: api/lista
-        // Listar todos os itens da lista.
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ListaModel>>> GetLista()
         {
@@ -25,7 +24,6 @@ namespace to_do_list.Controllers
         }
 
         // GET: api/lista/{id}
-        // Listar um item específico da lista pelo ID.
         [HttpGet("{id}")]
         public async Task<ActionResult<ListaModel>> GetListaItem(int id)
         {
@@ -40,7 +38,6 @@ namespace to_do_list.Controllers
         }
 
         // POST: api/lista
-        // Adicionar um novo item à lista.
         [HttpPost]
         public async Task<ActionResult<ListaModel>> AddListaItem(ListaModel listaItem)
         {
@@ -52,11 +49,10 @@ namespace to_do_list.Controllers
         }
 
         // PUT: api/lista/{id}
-        // Atualizar um item existente na lista. 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutListaItem(int id, [FromBody] ListaModel listaItem)
         {
-      
+
             var existingItem = await _context.Lista.FindAsync(id);
             if (existingItem == null)
             {
@@ -80,13 +76,12 @@ namespace to_do_list.Controllers
 
             await _context.SaveChangesAsync();
 
-            return NoContent(); 
+            return NoContent();
         }
 
 
 
         // DELETE: api/lista/{id}
-        // Deletar um item da lista pelo ID.
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteListaItem(int id)
         {
