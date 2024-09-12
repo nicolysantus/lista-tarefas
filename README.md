@@ -109,10 +109,11 @@ _________
 
 ## Endpoints da API
 
-| Método HTTP | Endpoint              | Descrição                                           |
-|-------------|-----------------------|-----------------------------------------------------|
-| POST        | /api/lista            | Cria uma nova tarefa com base nos dados fornecidos  |
-| GET         | /api/lista            | Retorna todas as tarefas existentes                 |
-| GET         | /api/lista/{Id} | Retorna uma tarefa específica com base no ID        |
-| PUT         | /api/lista/{Id} | Atualiza os dados de uma tarefa existente com base no ID |
-| DELETE      | /api/lista/{Id} | Deleta uma tarefa existente com base no ID               |
+| Método HTTP | Endpoint        | Descrição                                                                 |
+|-------------|-----------------|---------------------------------------------------------------------------|
+| POST        | /api/lista      | Adiciona uma nova tarefa utilizando os dados enviados no corpo da requisição. |
+| GET         | /api/lista      | Lista todas as tarefas cadastradas no sistema.                            |
+| GET         | /api/lista/{Id} | Busca e retorna uma tarefa específica com base no ID fornecido.           |
+| PUT         | /api/lista/{Id} | Modifica os detalhes de uma tarefa existente, identificada pelo ID.       |
+| DELETE      | /api/lista/{Id} | Remove uma tarefa do sistema com base no ID fornecido.                    |
+
