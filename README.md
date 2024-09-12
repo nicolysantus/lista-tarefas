@@ -41,7 +41,7 @@ Antes de iniciar o projeto, certifique-se de ter os seguintes softwares instalad
 ____________
 
 ### 2. Conexão com o banco de dados SQL Server
-1. Certifique-se de que o SQL Server (SSMS) esteja instalado e configurado corretamente em sua máquina. 
+1. Certifique-se de que o SQL Server e o SSMS esteja instalado e configurado corretamente em sua máquina. 
 
 2. Navegue até o diretório (**back-end/appsettings.json**) e utilize a string de conexão abaixo no arquivo de configuração da API
 
