@@ -86,23 +86,6 @@ cd /front-end
 npm install
 ```
 
-
-1. Navegue até a pasta do projeto da API no terminal:
-```bash
-cd /to-do-list
-```
-
-3. Compile e execute o projeto para iniciar o servidor:
-```bash
-dotnet build
-dotnet run
-```
-
-4. API estará disponível no endereço:
-```bash
-https://localhost:7093
-```
-
 __________
 
 ### 4. Inicialização 
