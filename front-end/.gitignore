@@ -1,2 +1,2 @@
-/node_modules
-/eslint.config.js
+node_modules/
+eslint.config.js/
