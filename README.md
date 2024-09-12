@@ -9,7 +9,7 @@ Aplicação de lista de tarefas desenvolvida como parte do teste técnico da New
 - ✏️ **Edição e Exclusão:** Modifique ou remova tarefas existentes, facilitando a atualização e manutenção da lista conforme necessário.
 - 🔍 **Filtragem por Status:** Aplique filtros para visualizar tarefas com base no status, ajudando a organizar e gerenciar as atividades de acordo com seu progresso.
 
-## Tecnologias Utilizadas
+## Stack Utilizada
 
 **Front-end:**  
  - React: 18.2.0
@@ -23,7 +23,6 @@ Aplicação de lista de tarefas desenvolvida como parte do teste técnico da New
 
 **Ferramentas:**
  - Entity Framework Core: 8.0.8
- - Docker
    
 ## Pré-requisitos
 
@@ -44,8 +43,9 @@ ____________
 ### 2. Conexão com o banco de dados SQL Server
 1. Certifique-se de que o SQL Server (SSMS) esteja instalado e configurado corretamente em sua máquina. 
 
-2. Utilize a string de conexão abaixo no arquivo de configuração da API 
-(**to-do-list/appsettings.json**)
+2. Navegue até o diretório (**back-end/appsettings.json**) e utilize a string de conexão abaixo no arquivo de configuração da API
+**Observação:** Observação: Mantenha o nome do banco de dados como TesteTecnico para evitar erros.
+
 para conectar ao banco de dados:
 ```bash
 "ConnectionStrings": {
@@ -56,13 +56,13 @@ para conectar ao banco de dados:
 Se precisar adicionar uma senha à conexão, altere a string de conexão para incluir as credenciais do usuário:
 ```bash
 "ConnectionStrings": {
-  "DefaultConnection": "Server=DESKTOP-4D0SI82;Database=TesteTecnico;User Id=seu_usuario;Password=sua_senha;TrustServerCertificate=True;"
+  "DefaultConnection": "Server=DESKTOP-Exemplo;Database=TesteTecnico;User Id=seu_usuario;Password=sua_senha;TrustServerCertificate=True;"
 }
 ```
 
 3. Navegue até a pasta do projeto da API no terminal:
 ```bash
-cd /to-do-list
+cd /back-end
 ```
 
 5. Em seguida, rode o comando para criar as migrações no banco de dados:
@@ -72,7 +72,18 @@ update-database
 
 ____________
 
-### 3. API
+### 3. Front-end
+
+1. Navegue até a pasta do projeto do front-end
+```bash
+cd /front-end
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
 
 1. Navegue até a pasta do projeto da API no terminal:
 ```bash
@@ -92,24 +103,19 @@ https://localhost:7093
 
 __________
 
-### 4. Front-end
+### 4. Inicialização 
 
-1. Navegue até a pasta do projeto do front-end
+1. Navegue novamente para a pasta ./back-end do projeto 
 ```bash
-cd /front-end
+cd /back-end
 ```
 
-2. Instale as dependências:
+2. Utilize o comando abaixo para compilar e realizar a inicialização
 ```bash
-npm install
+start iniciar-api.bat
 ```
 
-4. Inicie o servidor frontend:
-```bash
-npm start
-```
-
-5. Agora você deve ser capaz de acessar a aplicação em seu navegador no endereço:
+3. 🎉 Agora você deve ser capaz de acessar a aplicação em seu navegador no endereço:
 ```bash
 http://localhost:5173
 ```
