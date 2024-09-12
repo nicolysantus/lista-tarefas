@@ -26,7 +26,7 @@ Aplicação de lista de tarefas desenvolvida como parte do teste técnico da New
    
 ## Pré-requisitos
 
-Antes de iniciar o projeto, certifique-se de ter o seguinte software instalado em seu sistema:
+Antes de iniciar o projeto, certifique-se de ter os seguintes softwares instalados em seu sistema:
 
  - Node.js e npm
  - .NET SDK
