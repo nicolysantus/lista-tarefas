@@ -29,7 +29,7 @@ Aplicação de lista de tarefas desenvolvida como parte do teste técnico da New
 Antes de iniciar o projeto, certifique-se de ter os seguintes softwares instalados em seu sistema:
 
  - Node.js e npm
- - .NET SDK
+ - .NET 
  - SQL Server e SSMS
  - Visual Studio ou Visual Studio Code
    
