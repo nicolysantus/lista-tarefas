@@ -73,7 +73,7 @@ cd /back-end
 update-database
 ```
 
-6. No mesmo diretório use o comando para restauras as dependências
+6. No mesmo diretório use este comando para restaurar as dependências
 ```bash
 dotnet restore
 ```
