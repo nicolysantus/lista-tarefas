@@ -7,7 +7,6 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
