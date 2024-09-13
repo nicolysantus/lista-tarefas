@@ -68,14 +68,14 @@ Se precisar adicionar uma senha à conexão, altere a string de conexão para in
 cd /back-end
 ```
 
+4. No mesmo diretório use este comando para restaurar as dependências
+```bash
+dotnet restore
+```
+
 5. Em seguida, rode o comando para criar as migrações no banco de dados:
 ```bash
 update-database
-```
-
-6. No mesmo diretório use este comando para restaurar as dependências
-```bash
-dotnet restore
 ```
 
 ____________
