@@ -46,7 +46,7 @@ ____________
 2. Navegue até o arquivo:
 
 
-***back-end/appsettings.json***
+back-end/**appsettings.json**
 
 
 3. Utilize a string de conexão abaixo no arquivo para adicionar o seu servidor SQL:
