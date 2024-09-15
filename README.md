@@ -53,7 +53,7 @@ ____________
 
 **Observação:** Mantenha o nome do banco de dados como TesteTecnico para evitar erros.
 
-**para conectar ao banco de dados:** 
+**Para conectar ao banco de dados:** 
 
 <img src="https://i.pinimg.com/736x/18/8c/24/188c245b70b06b4c26ec3801d9c3a725.jpg" alt="sqlserver" width="250"/>
 
