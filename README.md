@@ -36,7 +36,7 @@ Antes de iniciar o projeto, certifique-se de ter os seguintes softwares instalad
 ## Inicializando o Projeto
 ### 1. Clone o repositório 
 ```bash
-  [https://github.com/nicolysantus/lista-tarefas.git]
+  https://github.com/nicolysantus/lista-tarefas.git
 ```
 ____________
 
@@ -67,7 +67,7 @@ ____________
 ### 3. Back-End
 1. Navegue até a pasta do projeto da API no terminal:
 ```bash
-cd /back-end
+cd ./back-end
 ```
 
 2. Utilize o comando abaixo e execute para compilar o projeto, criar o banco de dados e iniciar a API:
@@ -80,7 +80,7 @@ ____________
 
 1. Navegue até a pasta do projeto do front-end
 ```bash
-cd /front-end
+cd ./front-end
 ```
 
 2. Instale as dependências:
