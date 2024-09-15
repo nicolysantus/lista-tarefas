@@ -69,18 +69,8 @@ Se precisar adicionar uma senha à conexão, altere a string de conexão para in
 cd /back-end
 ```
 
-2. No mesmo diretório use este comando para restaurar as dependências
-```bash
-dotnet restore
-```
-
-3. Em seguida, rode o comando para criar as migrações no banco de dados:
-```bash
-update-database
-```
-
-4. Utilize o comando abaixo para compilar e iniciar a API e execute o projeto
-```bash
+2. Utilize o comando abaixo e execute para compilar o projeto, criar o banco de dados e iniciar a API:
+```bash   
 start iniciar-api.bat
 ```
 ____________
