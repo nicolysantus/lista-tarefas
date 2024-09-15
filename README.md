@@ -63,24 +63,29 @@ Se precisar adicionar uma senha à conexão, altere a string de conexão para in
 }
 ```
 
-3. Navegue até a pasta do projeto da API no terminal:
+### 3. Back-End
+1. Navegue até a pasta do projeto da API no terminal:
 ```bash
 cd /back-end
 ```
 
-4. No mesmo diretório use este comando para restaurar as dependências
+2. No mesmo diretório use este comando para restaurar as dependências
 ```bash
 dotnet restore
 ```
 
-5. Em seguida, rode o comando para criar as migrações no banco de dados:
+3. Em seguida, rode o comando para criar as migrações no banco de dados:
 ```bash
 update-database
 ```
 
+4. Utilize o comando abaixo para compilar e iniciar a API e execute o projeto
+```bash
+start iniciar-api.bat
+```
 ____________
 
-### 3. Front-end
+### 4. Front-end (Inicialização)
 
 1. Navegue até a pasta do projeto do front-end
 ```bash
@@ -92,21 +97,12 @@ cd /front-end
 npm install
 ```
 
-__________
-
-### 4. Inicialização 
-
-1. Navegue novamente para a pasta ./back-end do projeto 
+3. Inicie o servidor front-end
 ```bash
-cd /back-end
+npm start
 ```
 
-2. Utilize o comando abaixo para compilar e realizar a inicialização
-```bash
-start iniciar-api.bat
-```
-
-3. 🎉 Agora você deve ser capaz de acessar a aplicação em seu navegador no endereço:
+4. 🎉 Agora você deve ser capaz de acessar a aplicação em seu navegador no endereço:
 ```bash
 http://localhost:5173
 ```
