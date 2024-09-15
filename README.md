@@ -49,7 +49,7 @@ ____________
 ***back-end/appsettings.json***
 
 
-utilize a string de conexão abaixo no arquivo para adicionar o seu servidor SQL:
+3. Utilize a string de conexão abaixo no arquivo para adicionar o seu servidor SQL:
 
 **Observação:** Mantenha o nome do banco de dados como TesteTecnico para evitar erros.
 
