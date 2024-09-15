@@ -80,6 +80,7 @@ ____________
 
 1. Navegue até a pasta do projeto do front-end
 ```bash
+cd ..
 cd ./front-end
 ```
 
