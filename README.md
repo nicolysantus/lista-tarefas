@@ -62,6 +62,7 @@ Se precisar adicionar uma senha à conexão, altere a string de conexão para in
   "DefaultConnection": "Server=DESKTOP-Exemplo;Database=TesteTecnico;User Id=seu_usuario;Password=sua_senha;TrustServerCertificate=True;"
 }
 ```
+____________
 
 ### 3. Back-End
 1. Navegue até a pasta do projeto da API no terminal:
