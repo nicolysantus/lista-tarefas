@@ -1,4 +1,4 @@
-# Teste Técnico NewM 
+# Lista de Tarefas
 Aplicação de lista de tarefas desenvolvida como parte do teste técnico da NewM, demonstrando habilidades em desenvolvimento full-stack.
 
 
