@@ -1,5 +1,5 @@
 # Lista de Tarefas
-Aplicação de lista de tarefas desenvolvida como parte do teste técnico da NewM, demonstrando habilidades em desenvolvimento full-stack.
+Aplicação de lista de tarefas desenvolvida como parte do teste técnico da Stefanini, demonstrando habilidades em desenvolvimento full-stack.
 
 
 ## Funcionalidades
